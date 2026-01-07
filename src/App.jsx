@@ -47,7 +47,7 @@ function App() {
           <a className="btn btn-ghost text-xl hover:bg-purple-600">Shop Now</a>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu menu-horizontal gap-15">
             <li>
               <a className="hover:bg-purple-600">Home</a>
             </li>
