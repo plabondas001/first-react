@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="parent-div">
+    <div className=" parent-div">
       {/*  navbar */}
       <div className="navbar border-b-1 border-purple-600 bg-base-100 shadow-sm">
         <div className="navbar-start">
@@ -50,13 +50,19 @@ function App() {
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-15">
             <li>
-              <a className="hover:bg-purple-600">Home</a>
+              <a href="#" className="hover:bg-purple-600">
+                Home
+              </a>
             </li>
             <li>
-              <a className="hover:bg-purple-600">About</a>
+              <a href="#" className="hover:bg-purple-600">
+                About
+              </a>
             </li>
             <li>
-              <a className="hover:bg-purple-600">Products</a>
+              <a href="#" className="hover:bg-purple-600">
+                Products
+              </a>
             </li>
           </ul>
         </div>
@@ -133,6 +139,215 @@ function App() {
             <a href="#slide1" className="btn btn-circle">
               ❯
             </a>
+          </div>
+        </div>
+      </div>
+      {/* products card */}
+      <div className="product-card">
+        <h1 className="font-serif text-5xl flex justify-center mt-10">
+          Our Products
+        </h1>
+      </div>
+      {/* card */}
+      <div className="grid grid-cols-5 space-y-3 gap-5 mx-5 mt-10">
+        {/* card 1 */}
+        <div className="card bg-base-100 shadow-s">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/product1.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 2 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro2.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 3 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro3.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 4 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro4.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro5.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro5.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro6.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro2.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro3.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
+          </div>
+        </div>
+        {/* card 5 */}
+        <div className="card bg-base-100 shadow-sm">
+          <figure>
+            <img
+              className="h-65 w-full"
+              src="src/assets/pro2.jpg"
+              alt="Shoes"
+            />
+          </figure>
+          <div className="card-body">
+            <h2 className="card-title">Card Title</h2>
+            <p>
+              A card component has a figure, a body part, and inside body there
+              are title and actions parts
+            </p>
+            <div className="card-actions justify-end">
+              <button className="btn btn-primary">Buy Now</button>
+            </div>
           </div>
         </div>
       </div>
