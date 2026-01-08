@@ -337,7 +337,7 @@ function App() {
           <figure>
             <img
               className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
-              src="src/assets/pro2.jpg"
+              src="src/assets/shamblen-studios-xwM61TPMlYk-unsplash.jpg"
               alt="Shoes"
             />
           </figure>
