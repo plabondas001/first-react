@@ -1,6 +1,7 @@
 function App() {
   return (
     <div className="parent-div">
+      {/*  navbar */}
       <div className="navbar border-b-1 border-purple-600 bg-base-100 shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
@@ -87,8 +88,55 @@ function App() {
           </label>
         </div>
       </div>
+
+      {/* carousel */}
+      <div className="carousel w-full mt-1">
+        <div id="slide1" className="carousel-item relative w-full">
+          <img src="src/assets/rsz_120.jpg" className="w-full h-[600px]" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide4" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide2" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide2" className="carousel-item relative w-full">
+          <img src="src/assets/728.jpg" className="w-full h-[600px]" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide1" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide3" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide3" className="carousel-item relative w-full">
+          <img src="src/assets/583.jpg" className="w-full h-[600px]" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide4" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+        <div id="slide4" className="carousel-item relative w-full">
+          <img src="src/assets/2638557.jpg" className="w-full h-[600px]" />
+          <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide3" className="btn btn-circle">
+              ❮
+            </a>
+            <a href="#slide1" className="btn btn-circle">
+              ❯
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
-    // navbar
   );
 }
 
