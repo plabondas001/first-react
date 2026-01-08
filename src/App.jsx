@@ -1,8 +1,8 @@
 function App() {
   return (
-    <div className=" parent-div">
+    <div className="parent-div">
       {/*  navbar */}
-      <div className="navbar border-b-1 border-purple-600 bg-base-100 shadow-sm">
+      <div className="navbar border-b-1 border-purple-600 bg-[#0ee1348f] shadow-sm">
         <div className="navbar-start">
           <div className="dropdown">
             <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -45,22 +45,24 @@ function App() {
               </li>
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl hover:bg-purple-600">Shop Now</a>
+          <a className="btn btn-ghost text-xl hover:bg-[#265A5C] border-none">
+            Shop Now
+          </a>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal gap-15">
             <li>
-              <a href="#" className="hover:bg-purple-600">
+              <a href="#" className="hover:bg-[#265A5C] border-none">
                 Home
               </a>
             </li>
             <li>
-              <a href="#" className="hover:bg-purple-600">
+              <a href="#" className="hover:bg-[#265A5C] border-none">
                 About
               </a>
             </li>
             <li>
-              <a href="#" className="hover:bg-purple-600">
+              <a href="#" className="hover:bg-[#265A5C] border-none">
                 Products
               </a>
             </li>
@@ -96,7 +98,7 @@ function App() {
       </div>
 
       {/* carousel */}
-      <div className="carousel w-full mt-1">
+      <div className="carousel w-full">
         <div id="slide1" className="carousel-item relative w-full">
           <img src="src/assets/rsz_120.jpg" className="w-full h-[600px]" />
           <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -154,7 +156,7 @@ function App() {
         <div className="card bg-base-100 shadow-s">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/product1.jpg"
               alt="Shoes"
             />
@@ -174,7 +176,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro2.jpg"
               alt="Shoes"
             />
@@ -194,7 +196,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro3.jpg"
               alt="Shoes"
             />
@@ -214,7 +216,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro4.jpg"
               alt="Shoes"
             />
@@ -234,7 +236,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro5.jpg"
               alt="Shoes"
             />
@@ -254,7 +256,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro5.jpg"
               alt="Shoes"
             />
@@ -274,7 +276,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro6.jpg"
               alt="Shoes"
             />
@@ -294,7 +296,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro2.jpg"
               alt="Shoes"
             />
@@ -314,7 +316,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro3.jpg"
               alt="Shoes"
             />
@@ -334,7 +336,7 @@ function App() {
         <div className="card bg-base-100 shadow-sm">
           <figure>
             <img
-              className="h-65 w-full"
+              className="h-65 w-full transition-all duration-300 ease-in-out hover:scale-105"
               src="src/assets/pro2.jpg"
               alt="Shoes"
             />
@@ -351,6 +353,43 @@ function App() {
           </div>
         </div>
       </div>
+      {/* footer */}
+      <footer className="footer sm:footer-horizontal bg-[#265A5C] text-base-content p-10">
+        <nav>
+          <h6 className="footer-title">Services</h6>
+          <a className="link link-hover">Branding</a>
+          <a className="link link-hover">Design</a>
+          <a className="link link-hover">Marketing</a>
+          <a className="link link-hover">Advertisement</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Company</h6>
+          <a className="link link-hover">About us</a>
+          <a className="link link-hover">Contact</a>
+          <a className="link link-hover">Jobs</a>
+          <a className="link link-hover">Press kit</a>
+        </nav>
+        <nav>
+          <h6 className="footer-title">Legal</h6>
+          <a className="link link-hover">Terms of use</a>
+          <a className="link link-hover">Privacy policy</a>
+          <a className="link link-hover">Cookie policy</a>
+        </nav>
+        <form>
+          <h6 className="footer-title">Newsletter</h6>
+          <fieldset className="w-80">
+            <label>Enter your email address</label>
+            <div className="join">
+              <input
+                type="text"
+                placeholder="username@site.com"
+                className="input input-bordered join-item"
+              />
+              <button className="btn btn-primary join-item">Subscribe</button>
+            </div>
+          </fieldset>
+        </form>
+      </footer>
     </div>
   );
 }
